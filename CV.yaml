@@ -62,6 +62,17 @@ cv:
         show: false
       
     volunteer:
+      - company: Nechako Watershed Roundtable
+        location: Remote
+        position: GIS Intern
+        start_date: 2025-11
+        end_date: present
+        spacing_after: different_company
+        highlights:
+          - Worked with the Nechako Watershed to use GIS georeferencing to put digitally scanned maps onto digital maps.
+        show: false
+
+
       - company: UNBC Student Society
         location: Prince George, BC
         position: Director at Large
@@ -137,8 +148,13 @@ cv:
         summary: Contributed to an open-source resume builder application by developing a tagging and filtering system to help users organize and filter job roles based on custom tags.
         highlights:
           - Technologies - Python, typr, yaml
-
-
+      
+      - name: Computer Craft Scripts
+        date: 2025
+        summary: Made multiple programs that focus on state management, movement and spacial awareness.
+        highlights:
+          - Technologies - lua
+        show: false
 
 
     professional_development:
