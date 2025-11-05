@@ -69,7 +69,7 @@ cv:
         end_date: present
         spacing_after: different_company
         highlights:
-          - Worked with the Nechako Watershed to use GIS georeferencing to put digitally scanned maps onto digital maps.
+          - Worked with the Nechako Watershed Roundtable to use GIS georeferencing to put digitally scanned maps onto digital maps.
         show: false
 
 
@@ -141,7 +141,7 @@ cv:
         date: 2025
         summary: Designed and implemented a segmented home network with separate VLANs for IoT devices, servers, and personal devices. Configured secure remote access and wireless infrastructure for optimal performance and security.
         highlights:
-          - Technologies - VLANs, Tailscale, Network Access Points, Router Configuration, Network Security
+          - Technologies - VLANs, Tailscale, Wireguard, Network Access Points, Router Configuration, Network Security
       
       - name: Resume Builder (Contributor)
         date: 2025
