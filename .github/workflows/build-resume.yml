@@ -24,11 +24,11 @@ on:
 
 jobs:
   render:
+    env:
+      REPO_NAME: Virulentis/resume_builder
     permissions:
       contents: write
-    env:
-      REPO_NAME: "Virulentis/resume_builder"
-    uses: $REPO_NAME/.github/workflows/render-from-caller.yml@main  # Pin to a tag/SHA in production
+    uses: ahzs645/resume/.github/workflows/render-from-caller.yml@main  # Pin to a tag/SHA in production
     with:
       yaml_path: CV.yaml
       variants: ${{ inputs.variants != '' && inputs.variants || 'full' }}
