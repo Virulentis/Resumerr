@@ -26,7 +26,7 @@ jobs:
   render:
     permissions:
       contents: write
-    uses: virulentis/resume/.github/workflows/render-from-caller.yml@main  # Pin to a tag/SHA in production
+    uses: Virulentis/resume_builder/.github/workflows/render-from-caller.yml@main  # Pin to a tag/SHA in production
     with:
       yaml_path: CV.yaml
       variants: ${{ inputs.variants != '' && inputs.variants || 'full' }}
