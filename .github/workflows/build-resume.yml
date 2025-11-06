@@ -24,8 +24,6 @@ on:
 
 jobs:
   render:
-    env:
-      REPO_NAME: Virulentis/resume_builder
     permissions:
       contents: write
     uses: ahzs645/resume/.github/workflows/render-from-caller.yml@main  # Pin to a tag/SHA in production
