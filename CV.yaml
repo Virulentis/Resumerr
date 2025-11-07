@@ -59,7 +59,7 @@ cv:
           - Provided excellent customer service, assisting customers in finding products and answering questions about inventory and promotions
           - Operated cash register and handled transactions accurately and efficiently
           - Maintained a clean and organized store environment, including restocking shelves and organizing displays
-        show: false
+        tags: [archived]
       
     volunteer:
       - company: Nechako Watershed Roundtable
@@ -70,7 +70,7 @@ cv:
         spacing_after: different_company
         highlights:
           - Worked with the Nechako Watershed Roundtable to use GIS georeferencing to put digitally scanned maps onto digital maps.
-        show: false
+        tags: [archived]
 
 
       - company: UNBC Student Society
@@ -105,7 +105,7 @@ cv:
           - Assisted in organizing and promoting club events and activities, including movie nights, game nights, and cultural events
           - Managed club finances and budget, ensuring responsible use of funds and resources
           - Collaborated with other executive members to develop and implement club policies and procedures
-        show: false
+        tags: [archived]
 
     education:
       - institution: University of Northern British Columbia
@@ -167,7 +167,7 @@ cv:
         date: 2021-06
         location: Williams Lake, BC
         summary: Various workplace safety and administrative courses including WHMIS, Defensive Driving, Transportation of dangerous goods, Occupational First Aid Level 1, Radio training, ATV training, Trailer towing, Wilderness survival training, Records Management, Records Management Foundations, Information Management and Diverysity and Inclusion training.
-        show: false
+        tags: [archived]
         
   
 
