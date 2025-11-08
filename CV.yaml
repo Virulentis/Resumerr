@@ -154,7 +154,7 @@ cv:
         summary: Made multiple programs that focus on state management, movement and spacial awareness.
         highlights:
           - Technologies - lua
-        show: false
+        tags: [archived]
 
 
     professional_development:
