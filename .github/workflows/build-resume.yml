@@ -33,7 +33,8 @@ jobs:
       python_version: '3.13'
       upload_artifacts: 'true'
       publish_release: 'true'
-      release_overwrite: ${{ github.event_name == 'workflow_dispatch' && 'false' || 'true' }}
-      release_tag: ${{ github.event_name == 'workflow_dispatch' && (inputs.release_tag != '' && inputs.release_tag || format('resume-{0}', github.run_id)) || 'resume-latest' }}
+      # release_overwrite: ${{ github.event_name == 'workflow_dispatch' && 'false' || 'true' }}
+      release_tag: ${{ github.event_name == 'workflow_dispatch' && (inputs.release_tag != '' && inputs.release_tag || format('resume-{0}', github.run_id)) || format('resume-{0}', github.sha) }}
+      # release_tag: ${{ github.event_name == 'workflow_dispatch' && (inputs.release_tag != '' && inputs.release_tag || format('resume-{0}', github.run_id)) || 'resume-latest' }}
       release_name: "${{ github.event_name == 'workflow_dispatch' && (inputs.release_name != '' && inputs.release_name || format('Resume build #{0}', github.run_number)) || 'Latest Resume' }}"
       release_body: ${{ github.event_name == 'workflow_dispatch' && (inputs.release_body != '' && inputs.release_body || 'Manual resume build.') || format('Automated build from {0} ({1}).', github.ref_name, github.sha) }}
