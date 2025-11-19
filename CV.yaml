@@ -190,3 +190,7 @@ design:
   theme: ahmadstyle
   font_size: 11pt
   page_size: us-letter
+  keep_sections_together: false  # Prevent page breaks within sections
+  keep_entries_together: true    # Prevent page breaks within individual entries
+  prevent_orphaned_headers: true # Prevent section headers from appearing alone at the bottom of a page
+  section_heading_size: 13pt
