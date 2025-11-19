@@ -24,7 +24,7 @@ cv:
         highlights:
           - Analyzed existing manual processes and identified key bottlenecks, resulting in targeted automation solutions that improved overall workflow efficiency
           - Troubleshot technical issues during workflow implementation and developed robust error-handling procedures
-          - Designed and deployed a PowerAutomate workflow to streamline user submissions, significantly reducing manual effort and improving efficiency
+          - Designed and deployed a Power Automate workflow to streamline user submissions, significantly reducing manual effort and improving efficiency
 
 
       - company: UNBC
@@ -38,6 +38,7 @@ cv:
           - Assisted in debugging and resolving technical issues in a classroom environment
           - Delivered clear and concise explanations to users of varying levels of technical expertise and understanding
       
+
       - company: Ministry of Forests
         position: Administrative Assistant
         location: Williams Lake, BC
@@ -116,6 +117,7 @@ cv:
         end_date: 2023-05
         highlights:
           - "Focus: Data Science, Software Engineering."
+        
       - institution: Simon Fraser University
         area: Mechatronics System Engineering
         degree: B.Sc.
@@ -135,13 +137,13 @@ cv:
         date: 2025
         summary: Built and configured a dedicated server from repurposed hardware. The server hosts various services, including a personal website, file storage, and media streaming.
         highlights:
-          - Technologies - Proxmox, Docker, Nginx, Linux
+          - Technologies - Proxmox, Docker, Nginx, Linux, rclone
 
       - name: Home Network Infrastructure
         date: 2025
         summary: Designed and implemented a segmented home network with separate VLANs for IoT devices, servers, and personal devices. Configured secure remote access and wireless infrastructure for optimal performance and security.
         highlights:
-          - Technologies - VLANs, Tailscale, Wireguard, Network Access Points, Router Configuration, Network Security
+          - Technologies - VLANs, Tailscale, Wireguard, Network Access Points, Router Configuration
       
       - name: Resume Builder (Contributor)
         date: 2025
@@ -149,7 +151,7 @@ cv:
         highlights:
           - Technologies - Python, typr, yaml
       
-      - name: Computer Craft Scripts
+      - name: Computer-Craft Scripts
         date: 2025
         summary: Made multiple programs that focus on state management, movement and spacial awareness.
         highlights:
@@ -169,7 +171,16 @@ cv:
         summary: Various workplace safety and administrative courses including WHMIS, Defensive Driving, Transportation of dangerous goods, Occupational First Aid Level 1, Radio training, ATV training, Trailer towing, Wilderness survival training, Records Management, Records Management Foundations, Information Management and Diverysity and Inclusion training.
         tags: [archived]
         
-  
+    achievements:
+      - name: Hackathons
+        highlights: 
+          - Participated in multiple Hackathons, including StormHacks western canadas biggest hackathon
+          - Utilized multiple technologies such as REST apis, databases like redis and postgres
+      
+      - name: Engineering Competitions
+        highlights:
+          - Participated in a junior engineering design competition placing second and qualifiying for the Western Engineering Competition
+
 
     certifications_skills:
       - label: "Skills"
