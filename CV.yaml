@@ -16,14 +16,15 @@ cv:
     experience:
      
       - company: Over the Edge
-        position: Process Engineer Intern
+        position: Software Engineer Intern
         location: Remote
         start_date: 2025-04
         end_date: present
         spacing_after: different_company
         highlights:
           - Analyzed existing manual processes and identified key bottlenecks, resulting in targeted automation solutions that improved overall workflow efficiency
-          - Troubleshot technical issues during workflow implementation and developed robust error-handling procedures
+          - Implemented error-handling procedures that caught and resolved data validation issues before they reached end users
+          - Automated repetitive tasks, allowing team to reallocate 5+ hours/week to higher-value work
           - Designed and deployed a Power Automate workflow to streamline user submissions, significantly reducing manual effort and improving efficiency
 
 
